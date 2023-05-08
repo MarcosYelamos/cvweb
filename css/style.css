@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0%;
+    
 }
 
 body {
+    font-family: 'Open Sans', sans-serif;
     
 }
 
@@ -15,12 +19,38 @@ body {
     flex-direction: row;
 }
 
-.cabecera {
-    display: flex;
-    background-image: url(../img/banner-2.jpg);
-    background-size:cover;
-    height:100vh;
-    width: 100%; 
-    align-items: center;
-    justify-content: center;
+.column30 {
+    width: 30%;
+    float: left;
+    background-color: #0D4A46;
+    color: white;
+    flex-direction: row;
+    text-align: center;
+   
 }
+
+.nombre {
+    font-size: 70px;
+}
+
+.fa-phone {
+    font-size: 125%;
+    font-size: 125%;
+    padding-top: 0.5%;   
+    padding-right: 5%;
+}
+
+.fa-sharp {
+    font-size: 125%;
+    padding-top: 0.5%;   
+    padding-right: 5%;
+}
+
+
+
+.correo {
+    display: flex;
+    justify-content: center;
+
+}
+
