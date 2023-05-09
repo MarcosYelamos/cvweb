@@ -46,8 +46,6 @@ body {
     padding-right: 5%;
 }
 
-
-
 .correo {
     display: flex;
     justify-content: center;
@@ -65,4 +63,8 @@ body {
     padding: 1%;  
 }
 
-
+.fa-address-card {
+    color: white;
+    font-size: 125%;
+    padding: 1%;  
+}
