@@ -124,6 +124,7 @@ body {
     text-align: justify;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 5%;
 }
 
 .mi {
@@ -133,7 +134,7 @@ body {
 .objetivo {
     font-size: 50px;
     text-align: center;
-    padding-top: 8%;
+    padding-top: 3%;
 }
 
 .objetivo2 {
@@ -143,5 +144,34 @@ body {
 }
 
 .formacion {
-    
+    font-size: 50px;
+    padding-top: 3%;
+}
+.formacion2 {
+    flex-direction: row;
+    font-size: 20px;
+    padding-top: 2%;
+}
+.formacion4 {
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+.joan23 {
+    padding-top: 2%;
+    width: 40%;
+    height: 40%;
+}
+
+.centro {
+    text-align: center;
+}
+.fa-location-dot {
+    color:#0D4A46;
+}
+
+.fa-language {
+    color: white;
+    font-size: 125%;
+    padding: 1%; 
 }
