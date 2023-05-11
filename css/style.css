@@ -108,4 +108,36 @@ body {
 }
 .personales {
     padding-top: 10%;
-    }
+}
+
+.parrafo {
+    padding-top: 5%;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.parrafo2 {
+    padding-top: 5%;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.mi {
+    flex-direction: column;
+}
+
+.objetivo {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.objetivo2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2%;
+}
