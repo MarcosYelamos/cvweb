@@ -43,45 +43,70 @@ body {
     color: white;
     font-size: 125%;
     padding: 1%;  
+    
+    
 }
 
 .fa-address-card {
     color: white;
     font-size: 125%;
     padding: 1%; 
-    padding-left: 83%; 
+
 }
 
 .datos {
     content: "";
     display:flex;
-    clear: both;
     flex-wrap: wrap;
     flex-direction: row;
 }
 .correo {
     text-align: start;
-    padding-top: 10%;   
-       
-    
+    padding-top: 7%;   
 }
 .telefono {
-    padding-top: 5%;
-
+    text-align: start;
+    padding-top: 7%;
 }
+
+.ubi {
+    text-align: start;
+    padding-top: 10%;
+}
+
 .fa-phone {
     float: left;
     font-size: 125%;
-    padding-left: 15%;
-    padding-top: 5.5%;
-    padding-right: 20%;
+    padding-left: 12%;
+    padding-top: 7.5%;
+    padding-right: 23%;
+    
 }
 
 .fa-envelope {
     float: left;
     font-size: 125%;
-    padding-left: 15%;
-    padding-top: 10.5%;
-    padding-right: 10%;
+    padding-left: 12%;
+    padding-top: 7.5%;
+    padding-right: 12%;
     
 }
+
+.fa-house {
+    float: left;
+    font-size: 125%;
+    padding-left: 12%;
+    padding-top: 10.5%;
+    padding-right: 7%;
+    
+}
+
+
+
+.nacimiento{
+    padding-top: 5%;
+    font-size: 20px;
+}
+.personales {
+    padding-top: 10%;
+    }
