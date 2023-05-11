@@ -29,28 +29,10 @@ body {
    
 }
 
-.nombre {
+#nombre {
     font-size: 70px;
 }
 
-.fa-phone {
-    font-size: 125%;
-    font-size: 125%;
-    padding-top: 0.5%;   
-    padding-right: 5%;
-}
-
-.fa-sharp {
-    font-size: 125%;
-    padding-top: 0.5%;   
-    padding-right: 5%;
-}
-
-.correo {
-    display: flex;
-    justify-content: center;
-
-}
 
 .nav {
     background-color: black ;
@@ -66,5 +48,40 @@ body {
 .fa-address-card {
     color: white;
     font-size: 125%;
-    padding: 1%;  
+    padding: 1%; 
+    padding-left: 83%; 
+}
+
+.datos {
+    content: "";
+    display:flex;
+    clear: both;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.correo {
+    text-align: start;
+    padding-top: 10%;   
+       
+    
+}
+.telefono {
+    padding-top: 5%;
+
+}
+.fa-phone {
+    float: left;
+    font-size: 125%;
+    padding-left: 15%;
+    padding-top: 10.5%;
+    padding-right: 10%;
+}
+
+.fa-envelope {
+    float: left;
+    font-size: 125%;
+    padding-left: 15%;
+    padding-top: 10.5%;
+    padding-right: 10%;
+    
 }
