@@ -21,11 +21,11 @@ body {
 
 .column30 {
     width: 30%;
-    float: left;
     background-color: #0D4A46;
     color: white;
     flex-direction: row;
     text-align: center;
+    float: left;
    
 }
 
@@ -43,7 +43,8 @@ body {
     color: white;
     font-size: 125%;
     padding: 1%;  
-    
+    padding-left: 2%;
+    padding-right: 2%;
     
 }
 
@@ -51,27 +52,25 @@ body {
     color: white;
     font-size: 125%;
     padding: 1%; 
+    padding-left: 2%;
+    padding-right: 2%;
 
 }
 
 .datos {
-    content: "";
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    text-align: center;
 }
 .correo {
-    text-align: start;
     padding-top: 7%;   
 }
 .telefono {
-    text-align: start;
     padding-top: 7%;
 }
 
 #ubi {
-    text-align: start;
+    text-align: center;
     padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 .fa-phone {
@@ -124,7 +123,7 @@ body {
     text-align: justify;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 95%;
 }
 
 .mi {
@@ -143,7 +142,7 @@ body {
     padding-top: 2%;
 }
 
-.formacion {
+#formacion {
     font-size: 50px;
     padding-top: 3%;
 }
@@ -174,4 +173,196 @@ body {
     color: white;
     font-size: 125%;
     padding: 1%; 
+    padding-right: 78%;
+    padding-left: 2%;
+}
+
+.fa-location-arrow {
+    color: white;
+    font-size: 125%;
+    padding: 1%; 
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.laboral {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 3%;
+}
+
+.laboral2 {
+    flex-direction: row;
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+.laboral3 {
+    padding-top: 2%;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 35%;
+    padding-right: 5%;
+}
+
+.presentacion {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 3%;
+}
+.vpresent {
+    text-align: center;
+    padding-top: 2%;
+    float: left;
+    width: 50%;
+    padding-left: 20%;
+    
+}
+@media screen and (max-width:500px) {
+    .column30 {
+        width: 30%;
+        content: "";
+        display:flex;
+        clear: both;
+        flex-wrap: wrap;
+
+    }
+    
+    .fa-language {
+        color: white;
+        font-size: 125%;
+        padding: 1%;
+        padding-right:10%;
+        padding-left: 10%;
+    }
+    .fa-school {
+        color: white;
+        font-size: 125%;
+        padding: 1%;  
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .fa-address-card {
+        color: white;
+        font-size: 125%;
+        padding: 1%; 
+        padding-left: 10%;
+        padding-right: 10%;
+    
+    }
+    .fa-location-arrow {
+        color: white;
+        font-size: 125%;
+        padding: 1%; 
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #nombre {
+        font-size: 30px;
+    }
+    .nacimiento {
+        padding-left: 22%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .fa-house {
+        padding-top: 2%;
+        font-size: 60%;
+        padding-left: 0%;
+    }
+    #ubi {
+
+        font-size: 12px;
+        
+    }
+    .column70 {
+        width: 70%;
+        display: block;
+        flex-direction: row;
+        float: right;
+        }
+    .correo {
+        font-size: 12px;
+    }
+    .fa-envelope {
+        padding-top: 10.5%;
+        font-size: 60%;
+        padding-left: 5%;
+    }
+    .telefono {
+        font-size: 12px;
+    }
+    .fa-phone {
+        padding-top: 10.5%;
+        font-size: 60%;
+        padding-left: 5%;
+
+    }
+
+    #personales {
+        padding-top: 10%;
+        font-size: 20px;
+    }
+    .parrafo {
+        font-size: 10px;
+    }
+    .parrafo2 {
+        font-size: 10px;
+    }
+    .objetivo {
+        font-size: 20px;
+        padding-top: 3%;
+        padding-right: 40%;
+    }
+    .objetivo2 {
+        font-size: 10px;
+        padding-left: 0%;
+        padding-right: 40%;
+    }
+
+    #formacion {
+        font-size: 20px;
+        padding-top: 3%;
+        padding-right:40% ;
+    }
+    .formacion2 {
+        font-size: 10px;
+        padding-right: 40%;
+    }
+    .joan23 {
+        padding-top: 2%;
+        width: 100%;
+        padding-right: 40%;
+    }
+    .formacion4 {
+        font-size: 10px;
+        padding-right: 40%;
+    }
+    .laboral {
+        font-size: 20px;
+        padding-right: 40%;
+    }
+    .laboral2 {
+        font-size: 10px;
+        padding-right: 40%;
+    }
+
+    .laboral3 {
+        font-size: 10px;
+        padding-left: 0%;     
+        padding-right: 40%;  
+    }
+    .presentacion {
+        font-size: 20px;
+        padding-right: 40%;
+    }
+    .vpresent {
+        width: 80%;
+        height: 40%;
+        padding-right: 40%;
+    }
+    .column70 {
+        width: 50%
+    }
 }
